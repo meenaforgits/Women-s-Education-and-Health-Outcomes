@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Maternal Mortality   R-squared:                       0.627
+Model:                            OLS   Adj. R-squared:                  0.613
+Method:                 Least Squares   F-statistic:                     44.26
+Date:                Mon, 24 Aug 2026   Prob (F-statistic):           6.92e-17
+Time:                        13:25:40   Log-Likelihood:                -500.56
+No. Observations:                  83   AIC:                             1009.
+Df Residuals:                      79   BIC:                             1019.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                695.5285     51.876     13.408      0.000     592.272     798.785
+Female Literacy       -6.5831      0.681     -9.660      0.000      -7.940      -5.227
+GDP per Capita        -0.0023      0.002     -1.079      0.284      -0.006       0.002
+Health Expenditure     0.0151      0.017      0.882      0.380      -0.019       0.049
+==============================================================================
+Omnibus:                        4.747   Durbin-Watson:                   1.953
+Prob(Omnibus):                  0.093   Jarque-Bera (JB):                5.799
+Skew:                           0.162   Prob(JB):                       0.0550
+Kurtosis:                       4.254   Cond. No.                     6.74e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.74e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
